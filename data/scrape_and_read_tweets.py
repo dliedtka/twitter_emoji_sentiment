@@ -18,6 +18,7 @@ access_token_secret = #
 consumer_key = #
 consumer_secret = #
 '''
+# test
 
 tweets = pickle.load(open(os.path.dirname(os.path.abspath(__file__)) + "/usable/emoji_tweets.pkl", "rb"))
 counter = 0
