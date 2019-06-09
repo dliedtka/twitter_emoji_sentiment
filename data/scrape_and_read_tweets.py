@@ -8,17 +8,11 @@ import pickle
 import os
 
 #Variables that contains the user credentials to access Twitter API 
-access_token = "1588599848-ZUkNTYw8iJ89od6ryN1lBm4dlPO37MIyl5ChvlB"
-access_token_secret = "i5HJr50O5NZ6k63kjp5Zb9LWGytCEpclZY49B0eAFrRn2"
-consumer_key = "P4sjwDQrSW0AwCgyaSvMjahBY"
-consumer_secret = "dta4e5rFpd1aYOiuocZpACOisOvr9iqN4UXD7OVohxNktLFVIM"
-'''# for github
 access_token = #
 access_token_secret = #
 consumer_key = #
 consumer_secret = #
-'''
-# test 2
+
 
 tweets = pickle.load(open(os.path.dirname(os.path.abspath(__file__)) + "/usable/emoji_tweets.pkl", "rb"))
 counter = 0
